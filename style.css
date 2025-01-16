@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    padding: 1.5vw;
+}
+
+#search{
+    padding: 5px 10px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 1vw;
+}
+
+#search-btn{
+    background-color: brown;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 1.5vw;
+    color: antiquewhite;
+}
+
+#results{
+    height: 200vh;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
